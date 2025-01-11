@@ -129,8 +129,6 @@ AreaLevel >= 65
 StackSize < 1000
 SetFontSize 25
 SetBackgroundColor 0 0 0 96
-MinimapIcon 1 Yellow Circle
-PlayEffect Yellow Temp
 CustomAlertSoundOptional "Gold (Sound Effect)   Diablo II.mp3" 50
 
 Show

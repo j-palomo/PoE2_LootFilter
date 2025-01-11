@@ -1,0 +1,243 @@
+# Documentation on basic syntax can be found here: https://www.pathofexile.com/item-filter/about
+#--------------------------
+# End-game filter
+#--------------------------
+
+# Make normal items smaller
+
+Hide
+Class "Mace" "Wand" "Staff" "Sceptre" "Quarterstaff" "Bow" "Quiver" "Crossbow" "Body Armour" "Boots" "Gloves" "Belt" "Helmet" "Ring" "Amulet" "Focus" "Shield"
+AreaLevel >= 65
+Rarity Normal
+Continue
+
+Show
+Class "Mace" "Wand" "Staff" "Sceptre" "Quarterstaff" "Bow" "Quiver" "Crossbow" "Body Armour" "Boots" "Gloves" "Belt" "Helmet" "Ring" "Amulet" "Focus" "Shield"
+AreaLevel >= 65
+Rarity Magic
+SetBackgroundColor 0 0 0 127
+SetFontSize 15
+Continue
+
+Show
+Class "Mace" "Wand" "Staff" "Sceptre" "Quarterstaff" "Bow" "Quiver" "Crossbow" "Body Armour" "Boots" "Gloves" "Belt" "Helmet" "Ring" "Amulet" "Focus" "Shield"
+AreaLevel >= 65
+Rarity Rare
+SetBackgroundColor 0 0 0 255
+SetFontSize 25
+Continue
+#--------------------------
+# Sockets and Quality (for breaking down)
+#--------------------------
+
+Show
+Sockets > 0
+Rarity <= Magic
+SetBorderColor 200 200 200
+SetBackgroundColor 0 0 0 255
+SetFontSize 33
+PlayEffect White Temp
+
+Show
+Quality > 0
+Rarity <= Magic
+SetBorderColor 200 200 200
+SetBackgroundColor 0 0 0 255
+SetFontSize 33
+PlayEffect White Temp
+
+#--------------------------
+# Magic Advanced and Expert
+#--------------------------
+Show
+Rarity Magic
+BaseType "Advanced "
+SetFontSize 20
+SetBackgroundColor 0 0 0 127
+
+Show
+Rarity Magic
+BaseType "Expert "
+SetFontSize 25
+SetBackgroundColor 0 0 0 127
+#--------------------------
+# Rare Advanced and Expert
+#--------------------------
+Show
+Rarity Rare
+BaseType "Advanced "
+SetFontSize 30
+SetBackgroundColor 0 0 0 255
+
+Show
+Rarity Rare
+BaseType "Expert "
+SetFontSize 35
+SetBackgroundColor 0 0 0 255
+
+#--------------------------
+# Runes
+#--------------------------
+
+Show
+BaseType " Rune"
+PlayEffect Grey Temp
+MinimapIcon 1 Grey Circle
+SetFontSize 34
+SetTextColor 0 191 255
+SetBorderColor 0 0 0
+SetBackgroundColor 32 32 32
+
+#--------------------------
+# Currency
+#--------------------------
+
+#
+# F Tier Currency
+#
+
+# Gold
+Show
+BaseType == "Gold"
+AreaLevel >= 65
+StackSize >= 1000
+PlayEffect Yellow
+MinimapIcon 2 Yellow Circle
+SetFontSize 35
+CustomAlertSoundOptional "Gold (Sound Effect)   Diablo II.mp3" 50
+
+Show
+BaseType == "Gold"
+AreaLevel >= 65
+StackSize < 1000
+SetFontSize 25
+SetBackgroundColor 0 0 0 96
+MinimapIcon 1 Yellow Circle
+PlayEffect Yellow Temp
+CustomAlertSoundOptional "Gold (Sound Effect)   Diablo II.mp3" 50
+
+Show
+BaseType == "Gold"
+AreaLevel < 65
+StackSize >= 250
+PlayEffect Yellow
+MinimapIcon 2 Yellow Circle
+SetFontSize 35
+CustomAlertSoundOptional "Gold (Sound Effect)   Diablo II.mp3" 50
+
+Show
+BaseType == "Gold"
+SetFontSize 25
+CustomAlertSoundOptional "Gold (Sound Effect)   Diablo II.mp3" 50
+SetBackgroundColor 0 0 0 96
+
+#
+# E Tier Currency
+#
+
+# Scroll of Wisdom
+Show
+BaseType "Scroll of Wisdom"
+AreaLevel < 65
+SetFontSize 28
+
+Hide
+BaseType "Scroll of Wisdom"
+AreaLevel >= 65
+
+# Transmutation Shards
+Show
+BaseType "Transmutation Shard"
+AreaLevel < 65
+SetFontSize 28
+
+Hide
+BaseType "Transmutation Shard"
+AreaLevel >= 65
+
+#
+# D Tier Currency
+#
+
+# Orb of Transmutation/Augmentation
+Show
+BaseType == "Orb of Transmutation" "Orb of Augmentation"
+AreaLevel >= 65
+SetFontSize 23
+SetBackgroundColor 0 0 0 127
+
+# Regal Shard
+Show
+BaseType "Regal Shard" 
+AreaLevel >= 65
+SetBackgroundColor 0 0 0 127
+SetFontSize 30
+
+#
+# C Tier Currency
+#
+
+# Exalted Orb
+Show
+BaseType == "Exalted Orb" "Regal Orb"
+SetFontSize 35
+SetBorderColor 255 207 132
+PlayEffect Yellow
+
+
+#--------------------------
+# Flasks
+#--------------------------
+
+Show
+Class "Flasks"
+Quality > 0
+Rarity Normal
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 0 0 0 180
+MinimapIcon 2 White Circle
+PlayEffect White
+Continue
+
+Hide
+Class "Flasks"
+AreaLevel >= 65
+Quality 0
+Rarity Normal
+
+Show 
+Class "Flasks"
+AreaLevel >= 65
+Rarity Magic
+Quality 0
+SetBackgroundColor 0 0 0 127
+SetFontSize 20
+Continue
+
+Show
+Class "Flasks"
+Quality > 0
+Rarity Magic
+SetTextColor 224 224 224
+SetBorderColor 255 255 255
+SetBackgroundColor 0 0 0 255
+MinimapIcon 2 Blue Circle
+PlayEffect Blue
+
+Hide
+BaseType "Gargantuan Mana Flask"
+Quality = 0
+Rarity Normal
+AreaLevel >= 50
+
+#--------------------------
+# Gems
+#--------------------------
+
+Show
+AreaLevel < 68
+BaseType == "Uncut Support Gem" "Uncut Skill Gem" "Uncut Spirit Gem"
+PlayEffect Orange
+MinimapIcon 1 Orange Triangle
+SetFontSize 33

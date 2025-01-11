@@ -59,6 +59,7 @@ Show
 Rarity Rare
 SetFontSize 25
 SetBackgroundColor 0 0 0 255
+Continue
 #--------------------------
 # Rare Advanced and Expert
 #--------------------------
@@ -93,7 +94,7 @@ BaseType " Rune"
 PlayEffect Grey Temp
 MinimapIcon 1 Grey Circle
 SetFontSize 34
-SetTextColor 0 191 255
+SetTextColor 192 224 255
 SetBorderColor 0 0 0
 SetBackgroundColor 32 32 32
 
@@ -239,6 +240,22 @@ PlayEffect Yellow
 PlayAlertSoundPositional 2 250
 
 #--------------------------
+# Essences
+#--------------------------
+
+Show
+BaseType "Essence "
+SetFontSize 25
+PlayEffect Purple Temp
+
+Show
+BaseType "Greater Essence "
+SetFontSize 30
+SetBorderColor 255 64 255
+PlayEffect Purple Temp
+
+
+#--------------------------
 # Flasks
 #--------------------------
 
@@ -290,5 +307,20 @@ AreaLevel >= 50
 
 Show
 BaseType == "Uncut Support Gem" "Uncut Skill Gem" "Uncut Spirit Gem"
-PlayEffect Orange
-MinimapIcon 1 Orange Cross
+PlayEffect Cyan
+SetBackgroundColor 0 0 0 255
+SetBorderColor 127 255 255
+SetFontSize 33
+MinimapIcon 1 Cyan Cross
+
+#--------------------------
+# Relics
+#--------------------------
+
+Show
+BaseType "Relic"
+Rarity Magic
+SetBackgroundColor 0 0 0 255
+SetBorderColor 0 0 0
+SetTextColor 255 127 255
+SetFontSize 33

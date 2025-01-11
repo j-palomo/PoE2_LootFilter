@@ -47,19 +47,18 @@ SetFontSize 33
 PlayEffect White Temp
 
 #--------------------------
-# Magic Advanced and Expert
+# Magic and Rare
 #--------------------------
 Show
 Rarity Magic
-BaseType "Advanced "
 SetFontSize 20
 SetBackgroundColor 0 0 0 127
+Continue
 
 Show
-Rarity Magic
-BaseType "Expert "
+Rarity Rare
 SetFontSize 25
-SetBackgroundColor 0 0 0 127
+SetBackgroundColor 0 0 0 255
 #--------------------------
 # Rare Advanced and Expert
 #--------------------------
@@ -74,6 +73,16 @@ Rarity Rare
 BaseType "Expert "
 SetFontSize 35
 SetBackgroundColor 0 0 0 255
+
+#--------------------------
+# Low level Normals
+#--------------------------
+Show
+Rarity Normal
+AreaLevel < 65
+SetBackgroundColor 0 0 0 64
+SetFontSize 15
+Continue
 
 #--------------------------
 # Runes
@@ -91,6 +100,13 @@ SetBackgroundColor 32 32 32
 #--------------------------
 # Currency
 #--------------------------
+
+#Unknown currency
+Show
+Class "Currency"
+SetFontSize 45
+SetBackgroundColor 0 0 0 255
+Continue
 
 #
 # F Tier Currency
@@ -135,24 +151,13 @@ SetBackgroundColor 0 0 0 96
 # E Tier Currency
 #
 
-# Scroll of Wisdom
 Show
-BaseType "Scroll of Wisdom"
+BaseType == "Scroll of Wisdom" "Transmutation Shard"
 AreaLevel < 65
-SetFontSize 28
+SetFontSize 15
 
 Hide
-BaseType "Scroll of Wisdom"
-AreaLevel >= 65
-
-# Transmutation Shards
-Show
-BaseType "Transmutation Shard"
-AreaLevel < 65
-SetFontSize 28
-
-Hide
-BaseType "Transmutation Shard"
+BaseType == "Scroll of Wisdom" "Transmutation Shard"
 AreaLevel >= 65
 
 #
@@ -161,29 +166,77 @@ AreaLevel >= 65
 
 # Orb of Transmutation/Augmentation
 Show
-BaseType == "Orb of Transmutation" "Orb of Augmentation"
-AreaLevel >= 65
-SetFontSize 23
-SetBackgroundColor 0 0 0 127
-
-# Regal Shard
+BaseType == "Orb of Transmutation" "Orb of Augmentation" "Regal Shard" "Chance Shard" "Artificer's Shard"
+StackSize > 1
+SetFontSize 25
 Show
-BaseType "Regal Shard" 
+BaseType == "Orb of Transmutation" "Orb of Augmentation" "Regal Shard" "Chance Shard" "Artificer's Shard"
 AreaLevel >= 65
-SetBackgroundColor 0 0 0 127
-SetFontSize 30
+SetFontSize 20
+SetBackgroundColor 0 0 0 64
+
+Show
+BaseType == "Orb of Transmutation" "Orb of Augmentation" "Regal Shard" "Chance Shard" "Artificer's Shard"
+AreaLevel < 65
+SetFontSize 20
 
 #
 # C Tier Currency
 #
+# Lesser Jeweller's Orbs are more important while leveling
+Show
+BaseType "Lesser Jeweller's Orb"
+AreaLevel < 65
+SetFontSize 35
+SetBorderColor 255 207 132
+PlayEffect Orange
+PlayAlertSoundPositional 3 300
+
+Show
+BaseType "Lesser Jeweller's Orb"
+AreaLevel >= 65
+SetFontSize 25
+PlayEffect Orange Temp
 
 # Exalted Orb
 Show
-BaseType == "Exalted Orb" "Regal Orb"
+BaseType == "Vaal Orb" "Regal Orb"
+SetFontSize 25
+PlayEffect Yellow Temp
+PlayAlertSoundPositional 2 150
+
+# Quality/socket stuff
+Show
+BaseType == "Blacksmith's Whetstone" "Arcanist's Etcher" "Artificer's Orb" "Armourer's Scrap" "Glassblower's Bauble" "Gemcutter's Prism"
+SetFontSize 25
+PlayEffect Grey Temp
+PlayAlertSoundPositional 1 100
+SetBorderColor 255 255 255
+
+Show
+BaseType == "Exalted Orb"
+SetFontSize 25
+SetBorderColor 255 207 132
+PlayEffect Yellow Temp
+PlayAlertSoundPositional 2 150
+
+#
+# B Tier Currency
+#
+
+Show
+BaseType == "Chaos Orb" "Orb of Alchemy"
 SetFontSize 35
 SetBorderColor 255 207 132
 PlayEffect Yellow
+PlayAlertSoundPositional 2 200
 
+Show
+BaseType "Divine Orb"
+SetFontSize 38
+SetBorderColor 255 207 132
+PlayEffect Yellow
+PlayAlertSoundPositional 2 250
 
 #--------------------------
 # Flasks
@@ -193,9 +246,8 @@ Show
 Class "Flasks"
 Quality > 0
 Rarity Normal
-SetTextColor 255 255 255
 SetBorderColor 255 255 255
-SetBackgroundColor 0 0 0 180
+SetBackgroundColor 0 0 0 127
 MinimapIcon 2 White Circle
 PlayEffect White
 Continue
@@ -205,6 +257,7 @@ Class "Flasks"
 AreaLevel >= 65
 Quality 0
 Rarity Normal
+Continue
 
 Show 
 Class "Flasks"
@@ -219,14 +272,14 @@ Show
 Class "Flasks"
 Quality > 0
 Rarity Magic
-SetTextColor 224 224 224
-SetBorderColor 255 255 255
+SetBorderColor 0 0 255
 SetBackgroundColor 0 0 0 255
 MinimapIcon 2 Blue Circle
 PlayEffect Blue
+Continue
 
 Hide
-BaseType "Gargantuan Mana Flask"
+BaseType "Gargantuan "
 Quality = 0
 Rarity Normal
 AreaLevel >= 50
@@ -236,8 +289,6 @@ AreaLevel >= 50
 #--------------------------
 
 Show
-AreaLevel < 68
 BaseType == "Uncut Support Gem" "Uncut Skill Gem" "Uncut Spirit Gem"
 PlayEffect Orange
-MinimapIcon 1 Orange Triangle
-SetFontSize 33
+MinimapIcon 1 Orange Cross

@@ -188,15 +188,18 @@ Show
 BaseType "Lesser Jeweller's Orb"
 AreaLevel < 65
 SetFontSize 35
-SetBorderColor 255 207 132
-PlayEffect Orange
+SetBorderColor 127 255 255
+PlayEffect Cyan
+MinimapIcon 1 Cyan Triangle
 PlayAlertSoundPositional 3 300
 
 Show
 BaseType "Lesser Jeweller's Orb"
 AreaLevel >= 65
 SetFontSize 25
-PlayEffect Orange Temp
+SetBorderColor 127 255 255
+PlayEffect Cyan Temp
+PlayAlertSoundPositional 3 50
 
 # Exalted Orb
 Show
@@ -237,6 +240,14 @@ SetFontSize 38
 SetBorderColor 255 207 132
 PlayEffect Yellow
 PlayAlertSoundPositional 2 250
+
+Show
+BaseType "Greater Jeweller's Orb"
+SetFontSize 35
+SetBorderColor 127 255 255
+PlayEffect Cyan
+MinimapIcon 2 Cyan Star
+PlayAlertSoundPositional 3 250
 
 #--------------------------
 # Essences

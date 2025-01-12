@@ -129,7 +129,7 @@ AreaLevel >= 65
 StackSize < 1000
 SetFontSize 25
 SetBackgroundColor 0 0 0 96
-CustomAlertSoundOptional "Gold (Sound Effect)   Diablo II.mp3" 50
+CustomAlertSoundOptional "Gold (Sound Effect)   Diablo II.mp3" 25
 
 Show
 BaseType == "Gold"
@@ -143,7 +143,7 @@ CustomAlertSoundOptional "Gold (Sound Effect)   Diablo II.mp3" 50
 Show
 BaseType == "Gold"
 SetFontSize 25
-CustomAlertSoundOptional "Gold (Sound Effect)   Diablo II.mp3" 50
+CustomAlertSoundOptional "Gold (Sound Effect)   Diablo II.mp3" 25
 SetBackgroundColor 0 0 0 96
 
 #

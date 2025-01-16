@@ -116,35 +116,28 @@ Continue
 # Gold
 Show
 BaseType == "Gold"
-AreaLevel >= 65
 StackSize >= 1000
 PlayEffect Yellow
 MinimapIcon 2 Yellow Circle
+SetFontSize 40
+
+Show
+BaseType == "Gold"
+StackSize >= 500
 SetFontSize 35
-CustomAlertSoundOptional "Gold (Sound Effect)   Diablo II.mp3" 50
+PlayEffect Yellow Temp
+MinimapIcon 1 Yellow Circle
+SetBackgroundColor 0 0 0 191
 
 Show
 BaseType == "Gold"
-AreaLevel >= 65
-StackSize < 1000
-SetFontSize 25
-SetBackgroundColor 0 0 0 96
-CustomAlertSoundOptional "Gold (Sound Effect)   Diablo II.mp3" 25
-
-Show
-BaseType == "Gold"
-AreaLevel < 65
 StackSize >= 250
-PlayEffect Yellow
-MinimapIcon 2 Yellow Circle
-SetFontSize 35
-CustomAlertSoundOptional "Gold (Sound Effect)   Diablo II.mp3" 50
+SetFontSize 30
+SetBackgroundColor 0 0 0 127
 
 Show
-BaseType == "Gold"
 SetFontSize 25
-CustomAlertSoundOptional "Gold (Sound Effect)   Diablo II.mp3" 25
-SetBackgroundColor 0 0 0 96
+SetBackgroundColor 0 0 0 64
 
 #
 # E Tier Currency

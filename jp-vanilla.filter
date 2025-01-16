@@ -5,10 +5,11 @@
 
 # Make normal items smaller
 
-Hide
+Show
 Class "Mace" "Wand" "Staff" "Sceptre" "Quarterstaff" "Bow" "Quiver" "Crossbow" "Body Armour" "Boots" "Gloves" "Belt" "Helmet" "Ring" "Amulet" "Focus" "Shield"
 AreaLevel >= 65
 Rarity Normal
+SetFontSize 20
 Continue
 
 Show

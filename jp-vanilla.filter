@@ -273,7 +273,6 @@ SetBorderColor 255 255 255
 SetBackgroundColor 0 0 0 127
 MinimapIcon 2 White Circle
 PlayEffect White
-Continue
 
 Hide
 Class "Flasks"
@@ -301,10 +300,35 @@ MinimapIcon 2 Blue Circle
 PlayEffect Blue
 Continue
 
+# Hide normal base flasks that are low level while leveling
+Hide
+BaseType "Greater "
+Quality = 0
+AreaLevel >= 16
+
+Hide
+BaseType "Grand "
+Quality = 0
+AreaLevel >= 23
+
+Hide
+BaseType "Giant "
+Quality = 0
+AreaLevel >= 30
+
+Hide
+BaseType "Colossal "
+Quality = 0
+AreaLevel >= 40
+
 Hide
 BaseType "Gargantuan "
 Quality = 0
-Rarity Normal
+AreaLevel >= 50
+
+Hide
+BaseType "Transcendent "
+Quality = 0
 AreaLevel >= 50
 
 #--------------------------

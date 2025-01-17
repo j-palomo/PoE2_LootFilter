@@ -101,6 +101,19 @@ SetBorderColor 0 0 0
 SetBackgroundColor 32 32 32
 
 #--------------------------
+# Soul Cores
+#--------------------------
+
+Show
+BaseType "Soul Core"
+PlayEffect Red
+MinimapIcon 1 Red Circle
+SetFontSize 36
+SetBorderColor 255 0 0
+SetBackgroundColor 0 0 0
+PlayAlertSoundPositional 11 200
+
+#--------------------------
 # Currency
 #--------------------------
 

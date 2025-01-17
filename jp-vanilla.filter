@@ -228,6 +228,7 @@ BaseType == "Chaos Orb" "Orb of Alchemy"
 SetFontSize 35
 SetBorderColor 255 207 132
 PlayEffect Yellow
+MinimapIcon 1 Yellow Square
 PlayAlertSoundPositional 2 200
 
 Show
@@ -235,6 +236,7 @@ BaseType "Divine Orb"
 SetFontSize 38
 SetBorderColor 255 207 132
 PlayEffect Yellow
+MinimapIcon 2 Yellow Square
 PlayAlertSoundPositional 2 250
 
 Show

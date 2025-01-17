@@ -301,6 +301,23 @@ PlayEffect Blue
 Continue
 
 # Hide normal base flasks that are low level while leveling
+Show
+BaseType "Lesser "
+Quality = 0
+AreaLevel < 5
+SetFontSize 25
+SetBackgroundColor 0 0 0 224
+
+Hide
+BaseType "Lesser Mana Flask" "Lesser Life Flask"
+Quality = 0
+AreaLevel >= 5
+
+Hide
+BaseType "Medium "
+Quality = 0
+AreaLevel >= 10
+
 Hide
 BaseType "Greater "
 Quality = 0

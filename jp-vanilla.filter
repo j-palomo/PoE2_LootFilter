@@ -466,3 +466,41 @@ SetFontSize 35
 SetBorderColor 255 192 255
 MinimapIcon 2 Pink Moon
 PlayEffect Pink
+
+#--------------------------
+# Charms
+#--------------------------
+
+Show
+Class "Charm"
+Rarity Normal
+Quality > 0
+SetFontSize 35
+SetBorderColor 0 255 255
+MinimapIcon 1 Blue Moon
+PlayEffect Blue Temp
+
+Show
+Class "Charm"
+Rarity Magic
+Quality > 0
+SetFontSize 36
+SetBorderColor 0 128 255
+MinimapIcon 2 Blue Moon
+PlayEffect Blue
+
+Show
+Class "Charm"
+Rarity Normal
+SetFontSize 33
+SetBorderColor 0 255 255
+MinimapIcon 1 Blue Moon
+PlayEffect Blue Temp
+
+Show
+Class "Charm"
+Rarity Magic
+SetFontSize 34
+SetBorderColor 0 128 255
+MinimapIcon 2 Blue Moon
+PlayEffect Blue

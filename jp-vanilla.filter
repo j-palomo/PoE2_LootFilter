@@ -504,3 +504,15 @@ SetFontSize 34
 SetBorderColor 0 128 255
 MinimapIcon 2 Blue Moon
 PlayEffect Blue
+
+#--------------------------
+# Normal items to use Orb of Chance on
+#--------------------------
+
+Show
+Rarity Normal
+BaseType "Sapphire Ring" "Heavy Belt" "Stellar Amulet"
+SetBorderColor 188 96 37
+SetBackgroundColor 0 0 0 255
+SetFontSize 35
+PlayEffect White

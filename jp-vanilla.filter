@@ -476,7 +476,7 @@ Class "Charm"
 Rarity Normal
 Quality > 0
 SetFontSize 35
-SetBorderColor 0 255 255
+SetBorderColor 0 128 255
 MinimapIcon 1 Blue Moon
 PlayEffect Blue Temp
 
@@ -493,7 +493,7 @@ Show
 Class "Charm"
 Rarity Normal
 SetFontSize 33
-SetBorderColor 0 255 255
+SetBorderColor 0 128 255
 MinimapIcon 1 Blue Moon
 PlayEffect Blue Temp
 

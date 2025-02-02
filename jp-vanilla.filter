@@ -9,7 +9,7 @@ Show
 Class "Mace" "Wand" "Staff" "Sceptre" "Quarterstaff" "Bow" "Quiver" "Crossbow" "Body Armour" "Boots" "Gloves" "Belt" "Helmet" "Ring" "Amulet" "Focus" "Shield"
 AreaLevel >= 65
 Rarity Normal
-SetFontSize 20
+SetFontSize 15
 Continue
 
 Show
@@ -17,7 +17,7 @@ Class "Mace" "Wand" "Staff" "Sceptre" "Quarterstaff" "Bow" "Quiver" "Crossbow" "
 AreaLevel >= 65
 Rarity Magic
 SetBackgroundColor 0 0 0 127
-SetFontSize 15
+SetFontSize 20
 Continue
 
 Show

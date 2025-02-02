@@ -722,3 +722,74 @@ Hide
 Rarity Normal
 BaseType "Advanced Construct Hammer"
 AreaLevel >= 67
+
+# Two-handed Maces
+Hide
+Rarity Normal
+BaseType "Felled Greatclub"
+AreaLevel >= 4
+
+Hide
+Rarity Normal
+BaseType "Oak Greathammer"
+AreaLevel >= 11
+
+Hide
+Rarity Normal
+BaseType "Forge Maul"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Studded Greatclub"
+AreaLevel >= 22
+
+Hide
+Rarity Normal
+BaseType "Cultist Greathammer"
+AreaLevel >= 28
+
+Hide
+Rarity Normal
+BaseType "Temple Maul"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Leaden Greathammer"
+AreaLevel >= 38
+
+Hide
+Rarity Normal
+BaseType "Crumbling Maul"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Advanced Oak Greathammer"
+AreaLevel >= 48
+
+Hide
+Rarity Normal
+BaseType "Advanced Forge Maul"
+AreaLevel >= 51
+
+Hide
+Rarity Normal
+BaseType "Advanced Cultist Greathammer"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Advanced Temple Maul"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Advanced Leaden Greathammer"
+AreaLevel >= 62
+
+Hide
+Rarity Normal
+BaseType "Advanced Crumbling Maul"
+AreaLevel >= 67

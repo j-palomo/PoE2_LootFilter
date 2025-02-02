@@ -656,3 +656,69 @@ Hide
 Rarity Normal
 BaseType "Advanced Forlorn Crossbow"
 AreaLevel >= 67
+
+# One-handed Maces
+Hide
+Rarity Normal
+BaseType "Wooden Club" "Smithing Hammer"
+AreaLevel >= 10
+
+Hide
+Rarity Normal
+BaseType "Slim Mace"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Spiked Club"
+AreaLevel >= 22
+
+Hide
+Rarity Normal
+BaseType "Warpick"
+AreaLevel >= 26
+
+Hide
+Rarity Normal
+BaseType "Plated Mace"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Brigand Mace"
+AreaLevel >= 36
+
+Hide
+Rarity Normal
+BaseType "Construct Hammer"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Advanced Smithing Hammer"
+AreaLevel >= 48
+
+Hide
+Rarity Normal
+BaseType "Advanced Slim Mace"
+AreaLevel >= 51
+
+Hide
+Rarity Normal
+BaseType "Advanced Warpick"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Advanced Plated Mace"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Advanced Brigand Mace"
+AreaLevel >= 62
+
+Hide
+Rarity Normal
+BaseType "Advanced Construct Hammer"
+AreaLevel >= 67

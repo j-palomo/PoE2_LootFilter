@@ -793,3 +793,69 @@ Hide
 Rarity Normal
 BaseType "Advanced Crumbling Maul"
 AreaLevel >= 67
+
+# Quarterstaves
+Hide
+Rarity Normal
+BaseType "Wrapped Quarterstaff" "Long Quarterstaff"
+AreaLevel >= 11
+
+Hide
+Rarity Normal
+BaseType "Gothic Quarterstaff"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Crackling Quarterstaff"
+AreaLevel >= 20
+
+Hide
+Rarity Normal
+BaseType "Crescent Quarterstaff"
+AreaLevel >= 28
+
+Hide
+Rarity Normal
+BaseType "Steelpoint Quarterstaff"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Slicing Quarterstaff"
+AreaLevel >= 37
+
+Hide
+Rarity Normal
+BaseType "Barrier Quarterstaff"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Advanced Long Quarterstaff"
+AreaLevel >= 48
+
+Hide
+Rarity Normal
+BaseType "Advanced Gothic Quarterstaff"
+AreaLevel >= 51
+
+Hide
+Rarity Normal
+BaseType "Advanced Crackling Quarterstaff"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Advanced Crescent Quarterstaff"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Advanced Slicing Quarterstaff"
+AreaLevel >= 62
+
+Hide
+Rarity Normal
+BaseType "Advanced Barrier Quarterstaff"
+AreaLevel >= 67

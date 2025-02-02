@@ -585,3 +585,74 @@ Hide
 Rarity Normal
 BaseType "Advanced Zealot Bow"
 AreaLevel >= 62
+
+# Crossbows
+Hide
+Rarity Normal
+BaseType "Makeshift Crossbow"
+AreaLevel >= 4
+
+Hide
+Rarity Normal
+BaseType "Tense Crossbow"
+AreaLevel >= 10
+
+Hide
+Rarity Normal
+BaseType "Sturdy Crossbow"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Varnished Crossbow"
+AreaLevel >= 20
+
+Hide
+Rarity Normal
+BaseType "Dyad Crossbow"
+AreaLevel >= 26
+
+Hide
+Rarity Normal
+BaseType "Alloy Crossbow"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Bombard Crossbow"
+AreaLevel >= 38
+
+Hide
+Rarity Normal
+BaseType "Construct Crossbow"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Advanced Tense Crossbow"
+AreaLevel >= 48
+
+Hide
+Rarity Normal
+BaseType "Advanced Sturdy Crossbow"
+AreaLevel >= 51
+
+Hide
+Rarity Normal
+BaseType "Advanced Varnished Crossbow"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Advanced Dyad Crossbow"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Advanced Bombard Crossbow"
+AreaLevel >= 62
+
+Hide
+Rarity Normal
+BaseType "Advanced Forlorn Crossbow"
+AreaLevel >= 67

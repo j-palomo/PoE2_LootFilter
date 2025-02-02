@@ -859,3 +859,72 @@ Hide
 Rarity Normal
 BaseType "Advanced Barrier Quarterstaff"
 AreaLevel >= 67
+
+#--------------------------
+# Normal off-hand to hide while leveling
+#--------------------------
+# Foci
+Hide
+Rarity Normal
+BaseType "Twig Focus"
+AreaLevel >= 6
+
+Hide
+Rarity Normal
+BaseType "Woven Focus"
+AreaLevel >= 10
+
+Hide
+Rarity Normal
+BaseType "Antler Focus"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Engraved Focus"
+AreaLevel >= 22
+
+Hide
+Rarity Normal
+BaseType "Tonal Focus"
+AreaLevel >= 26
+
+Hide
+Rarity Normal
+BaseType "Crystal Focus"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Voodoo Focus"
+AreaLevel >= 36
+
+Hide
+Rarity Normal
+BaseType "Plumed Focus"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Advanced Woven Focus"
+AreaLevel >= 48
+
+Hide
+Rarity Normal
+BaseType "Advanced Antler Focus"
+AreaLevel >= 51
+
+Hide
+Rarity Normal
+BaseType "Advanced Tonal Focus"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Advanced Crystal Focus"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Advanced Plumed Focus"
+AreaLevel >= 65

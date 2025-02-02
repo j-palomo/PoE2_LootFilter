@@ -516,3 +516,72 @@ SetBorderColor 188 96 37
 SetBackgroundColor 0 0 0 255
 SetFontSize 35
 PlayEffect White
+
+#--------------------------
+# Normal weapons to hide while leveling
+#--------------------------
+# Bows
+Hide
+Rarity Normal
+BaseType "Crude Bow"
+AreaLevel >= 5
+
+Hide
+Rarity Normal
+BaseType "Shortbow"
+AreaLevel >= 11
+
+Hide
+Rarity Normal
+BaseType "Warden Bow"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Recurve Bow"
+AreaLevel >= 22
+
+Hide
+Rarity Normal
+BaseType "Composite Bow"
+AreaLevel >= 28
+
+Hide
+Rarity Normal
+BaseType "Dualstring Bow"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Cultist Bow"
+AreaLevel >= 39
+
+Hide
+Rarity Normal
+BaseType "Zealot Bow"
+AreaLevel >= 45
+# Basetypes below are likely to be replaced as development on PoE2 continues
+Hide
+Rarity Normal
+BaseType "Advanced Shortbow"
+AreaLevel >= 48
+
+Hide
+Rarity Normal
+BaseType "Advanced Warden Bow"
+AreaLevel >= 51
+
+Hide
+Rarity Normal
+BaseType "Advanced Composite Bow"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Advanced Dualstring Bow"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Advanced Zealot Bow"
+AreaLevel >= 62

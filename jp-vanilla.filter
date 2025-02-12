@@ -928,3 +928,74 @@ Hide
 Rarity Normal
 BaseType "Advanced Plumed Focus"
 AreaLevel >= 65
+
+# Shields
+Hide
+Rarity Normal
+BaseType "Splintered Tower Shield"
+AreaLevel >= 6
+
+Hide
+Rarity Normal
+BaseType "Painted Tower Shield"
+AreaLevel >= 12
+
+Hide
+Rarity Normal
+BaseType "Braced Tower Shield"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Barricade Tower Shield"
+AreaLevel >= 21
+
+Hide
+Rarity Normal
+BaseType "Effigial Tower Shield"
+AreaLevel >= 28
+
+Hide
+Rarity Normal
+BaseType "Rampart Tower Shield"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Heraldric Tower Shield"
+AreaLevel >= 36
+
+Hide
+Rarity Normal
+BaseType "Stone Tower Shield"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Advanced Painted Tower Shield"
+AreaLevel >= 48
+
+Hide
+Rarity Normal
+BaseType "Advanced Braced Tower Shield"
+AreaLevel >= 51
+
+Hide
+Rarity Normal
+BaseType "Advanced Effigial Tower Shield"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Advanced Rampart Tower Shield"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Advanced Heraldric Tower Shield"
+AreaLevel >= 61
+
+Hide
+Rarity Normal
+BaseType "Advanced Stone Tower Shield"
+AreaLevel >= 65

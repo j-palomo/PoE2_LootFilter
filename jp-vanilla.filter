@@ -47,45 +47,6 @@ SetBackgroundColor 0 0 0 255
 SetFontSize 33
 PlayEffect White Temp
 
-#--------------------------
-# Magic and Rare
-#--------------------------
-Show
-Rarity Magic
-SetFontSize 20
-SetBackgroundColor 0 0 0 127
-Continue
-
-Show
-Rarity Rare
-SetFontSize 25
-SetBackgroundColor 0 0 0 255
-Continue
-#--------------------------
-# Rare Advanced and Expert
-#--------------------------
-Show
-Rarity Rare
-BaseType "Advanced "
-SetFontSize 30
-SetBackgroundColor 0 0 0 255
-
-Show
-Rarity Rare
-BaseType "Expert "
-SetFontSize 35
-SetBackgroundColor 0 0 0 255
-
-#--------------------------
-# Low level Normals
-#--------------------------
-Show
-Rarity Normal
-Class "Mace" "Wand" "Staff" "Sceptre" "Quarterstaff" "Bow" "Quiver" "Crossbow" "Body Armour" "Boots" "Gloves" "Belt" "Helmet" "Ring" "Amulet" "Focus" "Shield"
-AreaLevel < 65
-SetBackgroundColor 0 0 0 64
-SetFontSize 15
-Continue
 
 #--------------------------
 # Runes

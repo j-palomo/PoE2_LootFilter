@@ -200,9 +200,8 @@ SetBorderColor 127 255 255
 PlayEffect Cyan Temp
 PlayAlertSoundPositional 3 50
 
-# Exalted Orb
 Show
-BaseType == "Vaal Orb" "Regal Orb"
+BaseType == "Vaal Orb" "Regal Orb" "Fracturing Shard"
 SetFontSize 25
 PlayEffect Yellow Temp
 PlayAlertSoundPositional 2 150
@@ -227,7 +226,7 @@ PlayAlertSoundPositional 2 150
 #
 
 Show
-BaseType == "Chaos Orb" "Orb of Alchemy"
+BaseType == "Chaos Orb" "Orb of Alchemy" "Fracturing Orb"
 SetFontSize 35
 SetBorderColor 255 207 132
 PlayEffect Yellow

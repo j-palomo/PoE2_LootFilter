@@ -261,6 +261,7 @@ Show
 BaseType "Essence "
 SetFontSize 25
 PlayEffect Purple
+Continue
 
 Show
 BaseType "Greater Essence "
@@ -268,6 +269,62 @@ SetFontSize 30
 SetBorderColor 255 64 255
 PlayEffect Purple
 
+Show
+BaseType "Essence of Hysteria" "Essence of Horror" "Essence of Insanity" "Essence of Delirium"
+SetFontSize 45
+SetBorderColor 255 64 255
+SetTextColor 255 64 255
+PlayEffect Purple
+PlayAlertSoundPositional 4 300
+
+#--------------------------
+# Omens
+#--------------------------
+# Low item level
+Show
+BaseType "Omen of Sinistral" "Omen of Dextral Exaltation" "Omen of Greater Exaltation"
+SetFontSize 30
+SetBorderColor 255 255 255
+PlayEffect Yellow Temp
+
+Show
+BaseType "Omen of Amelioration" "Omen of Refreshment" "Omen of Resurgence"
+SetFontSize 30
+SetBorderColor 255 255 255
+PlayEffect Cyan Temp
+
+Show
+BaseType "Omen of Sinistral Alchemy" "Omen of Dextral Alchemy"
+SetFontSize 30
+SetBorderColor 255 255 255
+PlayEffect Green Temp
+
+Show
+BaseType "Omen of Sinistral Coronation" "Omen of Dextral Coronation" "Omen of Corruption"
+SetFontSize 30
+SetBorderColor 255 255 255
+PlayEffect Red Temp
+
+# 75+ item level
+Show
+BaseType "Omen of Whittling" "Omen of Greater Annulment"
+SetFontSize 30
+SetBorderColor 255 255 255
+PlayEffect Purple Temp
+
+# 80+ item level
+Show
+BaseType "Omen of Sinistral Erasure" "Omen of Dextral Erasure" "Omen of Sinistral Annulment" "Omen of Dextral Annulment"
+SetFontSize 35
+SetBorderColor 255 255 255
+PlayEffect Purple Temp
+
+# New omens (Dawn of the Hunt)
+Show
+BaseType "Omen of Answered Prayers" "Omen of Secret Compartments" "Omen of the Hunt" "Omen of Reinforcements"
+SetFontSize 40
+SetBorderColor 255 255 255
+PlayEffect Blue Temp
 
 #--------------------------
 # Flasks

@@ -828,32 +828,32 @@ AreaLevel >= 45
 
 Hide
 Rarity Normal
-BaseType "Advanced Long Quarterstaff"
+BaseType "Reaching Quarterstaff"
 AreaLevel >= 48
 
 Hide
 Rarity Normal
-BaseType "Advanced Gothic Quarterstaff"
+BaseType "Barbarous Quarterstaff"
 AreaLevel >= 51
 
 Hide
 Rarity Normal
-BaseType "Advanced Crackling Quarterstaff"
+BaseType "Arcing Quarterstaff"
 AreaLevel >= 55
 
 Hide
 Rarity Normal
-BaseType "Advanced Crescent Quarterstaff"
+BaseType "Waxing Quarterstaff"
 AreaLevel >= 59
 
 Hide
 Rarity Normal
-BaseType "Advanced Slicing Quarterstaff"
+BaseType "Bladed Quarterstaff"
 AreaLevel >= 62
 
 Hide
 Rarity Normal
-BaseType "Advanced Barrier Quarterstaff"
+BaseType "Guardian Quarterstaff"
 AreaLevel >= 67
 
 #--------------------------

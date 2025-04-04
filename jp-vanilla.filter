@@ -1106,3 +1106,74 @@ Rarity Normal
 BaseType "Goldworked Tower Shield"
 AreaLevel >= 65
 
+# Buckler
+# Don't hide until I find the level requirement
+Show
+Rarity Normal
+BaseType "Leather Buckler"
+AreaLevel >= 5
+
+Show
+Rarity Normal
+BaseType "Wooden Buckler"
+AreaLevel >= 11
+
+Show
+Rarity Normal
+BaseType "Plated Buckler"
+AreaLevel >= 16
+
+Show
+Rarity Normal
+BaseType "Iron Buckler"
+AreaLevel >= 22
+
+Show
+Rarity Normal
+BaseType "Ridged Buckler"
+AreaLevel >= 26
+
+Show
+Rarity Normal
+BaseType "Spiked Buckler"
+AreaLevel >= 33
+
+Show
+Rarity Normal
+BaseType "Ringed Buckler"
+AreaLevel >= 39
+
+Show
+Rarity Normal
+BaseType "Edged Buckler"
+AreaLevel >= 45
+
+Show
+Rarity Normal
+BaseType "Oak Buckler"
+AreaLevel >= 48
+
+Show
+Rarity Normal
+BaseType "Painted Buckler"
+AreaLevel >= 51
+
+Show
+Rarity Normal
+BaseType "Coiled Buckler"
+AreaLevel >= 55
+
+Show
+Rarity Normal
+BaseType "Spikeward Buckler"
+AreaLevel >= 59
+
+Show
+Rarity Normal
+BaseType "Jingling Buckler"
+AreaLevel >= 65
+
+Show
+Rarity Normal
+BaseType "Bladeguard Buckler"
+AreaLevel >= 70

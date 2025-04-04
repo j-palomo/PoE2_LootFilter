@@ -700,32 +700,32 @@ AreaLevel >= 45
 
 Hide
 Rarity Normal
-BaseType "Advanced Smithing Hammer"
+BaseType "Calescent Hammer"
 AreaLevel >= 48
 
 Hide
 Rarity Normal
-BaseType "Advanced Slim Mace"
+BaseType "Flared Mace"
 AreaLevel >= 51
 
 Hide
 Rarity Normal
-BaseType "Advanced Warpick"
+BaseType "Battle Pick"
 AreaLevel >= 55
 
 Hide
 Rarity Normal
-BaseType "Advanced Plated Mace"
+BaseType "Marching Mace"
 AreaLevel >= 59
 
 Hide
 Rarity Normal
-BaseType "Advanced Brigand Mace"
+BaseType "Bandit Mace"
 AreaLevel >= 62
 
 Hide
 Rarity Normal
-BaseType "Advanced Construct Hammer"
+BaseType "Structured Hammer"
 AreaLevel >= 67
 
 # Two-handed Maces
@@ -771,32 +771,32 @@ AreaLevel >= 45
 
 Hide
 Rarity Normal
-BaseType "Advanced Oak Greathammer"
+BaseType "Snakewood Greathammer"
 AreaLevel >= 48
 
 Hide
 Rarity Normal
-BaseType "Advanced Forge Maul"
+BaseType "Blacksmith Maul"
 AreaLevel >= 51
 
 Hide
 Rarity Normal
-BaseType "Advanced Cultist Greathammer"
+BaseType "Zealot Greathammer"
 AreaLevel >= 55
 
 Hide
 Rarity Normal
-BaseType "Advanced Temple Maul"
+BaseType "Solemn Maul"
 AreaLevel >= 59
 
 Hide
 Rarity Normal
-BaseType "Advanced Leaden Greathammer"
+BaseType "Heavy Greathammer"
 AreaLevel >= 62
 
 Hide
 Rarity Normal
-BaseType "Advanced Crumbling Maul"
+BaseType "Disintegrating Maul"
 AreaLevel >= 67
 
 # Quarterstaves

@@ -902,27 +902,32 @@ AreaLevel >= 45
 
 Hide
 Rarity Normal
-BaseType "Advanced Woven Focus"
+BaseType "Wreath Focus"
 AreaLevel >= 48
 
 Hide
 Rarity Normal
-BaseType "Advanced Antler Focus"
+BaseType "Staghorn Focus"
 AreaLevel >= 51
 
 Hide
 Rarity Normal
-BaseType "Advanced Tonal Focus"
+BaseType "Jingling Focus"
 AreaLevel >= 55
 
 Hide
 Rarity Normal
-BaseType "Advanced Crystal Focus"
+BaseType "Arrayed Focus"
 AreaLevel >= 59
 
 Hide
 Rarity Normal
-BaseType "Advanced Plumed Focus"
+BaseType "Cultist Focus"
+AreaLevel >= 61
+
+Hide
+Rarity Normal
+BaseType "Hallowed Focus"
 AreaLevel >= 65
 
 # Shields

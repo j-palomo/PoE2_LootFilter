@@ -857,6 +857,111 @@ BaseType "Guardian Quarterstaff"
 AreaLevel >= 67
 
 #--------------------------
+# Spears
+#--------------------------
+# Don't hide spears until we know the required level to wear them.
+
+Show
+Rarity Normal
+BaseType "Hardwood Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Ironhead Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Hunting Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Winged Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "War Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Forked Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Barbed Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Broad Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Crossblade Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Seaglass Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Sword Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Striking Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Helix Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Steelhead Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Coursing Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Swift Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Branched Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Jagged Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Massive Spear"
+AreaLevel >= 1
+
+Show
+Rarity Normal
+BaseType "Orichalcum Spear"
+AreaLevel >= 1
+
+#--------------------------
 # Normal off-hand to hide while leveling
 #--------------------------
 # Foci
@@ -1000,3 +1105,4 @@ Hide
 Rarity Normal
 BaseType "Goldworked Tower Shield"
 AreaLevel >= 65
+

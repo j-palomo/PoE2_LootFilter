@@ -634,32 +634,32 @@ AreaLevel >= 45
 
 Hide
 Rarity Normal
-BaseType "Advanced Tense Crossbow"
+BaseType "Taut Crossbow"
 AreaLevel >= 48
 
 Hide
 Rarity Normal
-BaseType "Advanced Sturdy Crossbow"
+BaseType "Robust Crossbow"
 AreaLevel >= 51
 
 Hide
 Rarity Normal
-BaseType "Advanced Varnished Crossbow"
+BaseType "Painted Crossbow"
 AreaLevel >= 55
 
 Hide
 Rarity Normal
-BaseType "Advanced Dyad Crossbow"
+BaseType "Twin Crossbow"
 AreaLevel >= 59
 
 Hide
 Rarity Normal
-BaseType "Advanced Bombard Crossbow"
+BaseType "Cannonade Crossbow"
 AreaLevel >= 62
 
 Hide
 Rarity Normal
-BaseType "Advanced Forlorn Crossbow"
+BaseType "Bleak Crossbow"
 AreaLevel >= 67
 
 # One-handed Maces

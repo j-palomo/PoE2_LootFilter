@@ -113,9 +113,6 @@ Show
 Class "Currency"
 SetFontSize 45
 SetBackgroundColor 0 0 0 255
-PlayEffect Yellow
-PlayAlertSoundPositional 8 300
-MinimapIcon 2 Yellow Cross
 Continue
 
 #

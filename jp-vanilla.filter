@@ -238,7 +238,7 @@ MinimapIcon 1 Yellow Square
 PlayAlertSoundPositional 2 200
 
 Show
-BaseType "Divine Orb"
+BaseType "Orb of Annulment"
 SetFontSize 38
 SetBorderColor 255 207 132
 PlayEffect Yellow
@@ -252,6 +252,46 @@ SetBorderColor 127 255 255
 PlayEffect Cyan
 MinimapIcon 2 Cyan Star
 PlayAlertSoundPositional 3 250
+
+#
+# A Tier Currency
+#
+
+Show
+BaseType "Divine Orb"
+SetFontSize 42
+SetBorderColor 255 207 132
+PlayEffect Yellow
+MinimapIcon 2 Yellow Square
+PlayAlertSoundPositional 2 250
+
+Show
+BaseType "Perfect Jeweller's Orb"
+SetFontSize 42
+SetBorderColor 127 255 255
+PlayEffect Cyan
+MinimapIcon 2 Cyan Star
+PlayAlertSoundPositional 3 300
+
+Show
+BaseType "Orb of Chance"
+SetFontSize 42
+SetBorderColor 255 207 132
+PlayEffect Brown
+MinimapIcon 2 Brown Square
+PlayAlertSoundPositional 4 250
+
+#
+# S Tier Currency
+#
+
+Show
+BaseType "Mirror of Kalandra"
+SetFontSize 45
+SetBorderColor 255 207 132
+PlayEffect Brown
+MinimapIcon 2 Brown Diamond
+PlayAlertSoundPositional 4 300
 
 #--------------------------
 # Essences
@@ -269,6 +309,7 @@ SetFontSize 30
 SetBorderColor 255 64 255
 PlayEffect Purple
 
+# New Essences (Dawn of the Hunt)
 Show
 BaseType "Essence of Hysteria" "Essence of Horror" "Essence of Insanity" "Essence of Delirium"
 SetFontSize 45

@@ -53,13 +53,15 @@ PlayEffect White Temp
 #--------------------------
 
 Show
-BaseType " Rune"
+BaseType "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Storm Rune" "Lesser Iron Rune" "Lesser Body Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Inspiration Rune" "Lesser Stone Rune" "Lesser Vision Rune"
 PlayEffect Grey Temp
 MinimapIcon 1 Grey Circle
 SetFontSize 34
 SetTextColor 192 224 255
 SetBorderColor 0 0 0
 SetBackgroundColor 32 32 32
+
+
 
 #--------------------------
 # Soul Cores

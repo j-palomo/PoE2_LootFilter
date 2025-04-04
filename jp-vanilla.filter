@@ -367,6 +367,7 @@ Continue
 
 # Hide normal base flasks that are low level while leveling
 Show
+Class "Flasks"
 BaseType "Lesser "
 Quality = 0
 AreaLevel < 5
@@ -374,41 +375,49 @@ SetFontSize 25
 SetBackgroundColor 0 0 0 224
 
 Hide
+Class "Flasks"
 BaseType "Lesser Mana Flask" "Lesser Life Flask"
 Quality = 0
 AreaLevel >= 5
 
 Hide
+Class "Flasks"
 BaseType "Medium "
 Quality = 0
 AreaLevel >= 10
 
 Hide
+Class "Flasks"
 BaseType "Greater "
 Quality = 0
 AreaLevel >= 16
 
 Hide
+Class "Flasks"
 BaseType "Grand "
 Quality = 0
 AreaLevel >= 23
 
 Hide
+Class "Flasks"
 BaseType "Giant "
 Quality = 0
 AreaLevel >= 30
 
 Hide
+Class "Flasks"
 BaseType "Colossal "
 Quality = 0
 AreaLevel >= 40
 
 Hide
+Class "Flasks"
 BaseType "Gargantuan "
 Quality = 0
 AreaLevel >= 50
 
 Hide
+Class "Flasks"
 BaseType "Transcendent "
 Quality = 0
 AreaLevel >= 50

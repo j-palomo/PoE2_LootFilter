@@ -258,13 +258,13 @@ PlayAlertSoundPositional 3 250
 Show
 BaseType "Essence "
 SetFontSize 25
-PlayEffect Purple Temp
+PlayEffect Purple
 
 Show
 BaseType "Greater Essence "
 SetFontSize 30
 SetBorderColor 255 64 255
-PlayEffect Purple Temp
+PlayEffect Purple
 
 
 #--------------------------

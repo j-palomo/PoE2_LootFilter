@@ -563,28 +563,33 @@ AreaLevel >= 45
 # Basetypes below are likely to be replaced as development on PoE2 continues
 Hide
 Rarity Normal
-BaseType "Advanced Shortbow"
+BaseType "Snakewood Shortbow"
 AreaLevel >= 48
 
 Hide
 Rarity Normal
-BaseType "Advanced Warden Bow"
+BaseType "Protector Bow"
 AreaLevel >= 51
 
 Hide
 Rarity Normal
-BaseType "Advanced Composite Bow"
+BaseType "Rider Bow"
 AreaLevel >= 55
 
 Hide
 Rarity Normal
-BaseType "Advanced Dualstring Bow"
+BaseType "Twin Bow"
 AreaLevel >= 59
 
 Hide
 Rarity Normal
-BaseType "Advanced Zealot Bow"
+BaseType "Adherent Bow"
 AreaLevel >= 62
+
+Hide
+Rarity Normal
+BaseType "Militant Bow"
+AreaLevel >= 67
 
 # Crossbows
 Hide

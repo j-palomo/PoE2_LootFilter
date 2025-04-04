@@ -555,6 +555,15 @@ SetBorderColor 0 128 255
 MinimapIcon 2 Blue Moon
 PlayEffect Blue
 
+Show
+Class "Charm"
+Rarity Unique
+SetFontSize 38
+SetBackgroundColor 40 32 32 255
+SetBorderColor 0 128 255
+PlayEffect Brown
+MinimapIcon 2 Brown Moon
+
 #--------------------------
 # Normal items to use Orb of Chance on
 #--------------------------

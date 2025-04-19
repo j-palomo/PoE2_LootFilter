@@ -1292,3 +1292,13 @@ Hide
 Rarity Normal
 BaseType "Bladeguard Buckler"
 AreaLevel >= 70
+
+#--------------------------
+# Normal boots to hide while leveling
+#--------------------------
+# Evasion
+
+Hide
+Rarity Normal
+BaseType "Rawhide Boots"
+AreaLevel >= 11

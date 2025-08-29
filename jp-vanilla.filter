@@ -155,10 +155,11 @@ BaseType == "Scroll of Wisdom" "Transmutation Shard"
 AreaLevel < 65
 SetFontSize 15
 
-Hide
+Show
 BaseType == "Scroll of Wisdom" "Transmutation Shard"
 AreaLevel >= 65
 SetFontSize 15
+SetBackgroundColor 0 0 0 16
 
 #
 # D Tier Currency
@@ -377,11 +378,13 @@ SetBackgroundColor 0 0 0 127
 MinimapIcon 2 White Circle
 PlayEffect White
 
-Hide
+Show
 Class "Flasks"
 AreaLevel >= 65
 Quality 0
 Rarity Normal
+SetFontSize 15
+SetBackgroundColor 0 0 0 16
 Continue
 
 Show 
@@ -494,7 +497,7 @@ BaseType "Waystone"
 AreaLevel < 65
 SetFontSize 35
 SetBackgroundColor 40 32 32 255
-PlayEffect Grey Temp
+PlayEffect Grey
 PlayAlertSoundPositional 11 100
 Continue
 
@@ -513,7 +516,7 @@ BaseType "Waystone"
 Rarity Magic
 SetFontSize 32
 SetBackgroundColor 40 32 32 255
-PlayEffect Grey Temp
+PlayEffect Grey
 PlayAlertSoundPositional 11 50
 
 Show
@@ -521,7 +524,7 @@ BaseType "Waystone"
 Rarity Rare
 SetFontSize 35
 SetBackgroundColor 40 32 32 255
-PlayEffect Grey Temp
+PlayEffect Grey
 PlayAlertSoundPositional 11 50
 
 Show
@@ -622,6 +625,7 @@ SetBorderColor 188 96 37
 SetBackgroundColor 0 0 0 255
 SetFontSize 35
 PlayEffect White
+Continue
 
 #--------------------------
 # Normal weapons to hide while leveling
@@ -974,107 +978,71 @@ AreaLevel >= 67
 #--------------------------
 # Spears
 #--------------------------
-# Don't hide spears until we know the required level to wear them.
 
 Show
 Rarity Normal
 BaseType "Hardwood Spear"
-AreaLevel >= 1
+AreaLevel >= 5
 
 Show
 Rarity Normal
 BaseType "Ironhead Spear"
-AreaLevel >= 1
+AreaLevel >= 10
 
 Show
 Rarity Normal
 BaseType "Hunting Spear"
-AreaLevel >= 1
+AreaLevel >= 16
 
 Show
 Rarity Normal
 BaseType "Winged Spear"
-AreaLevel >= 1
+AreaLevel >= 21
 
 Show
 Rarity Normal
 BaseType "War Spear"
-AreaLevel >= 1
+AreaLevel >= 26
 
 Show
 Rarity Normal
 BaseType "Forked Spear"
-AreaLevel >= 1
+AreaLevel >= 33
 
 Show
 Rarity Normal
 BaseType "Barbed Spear"
-AreaLevel >= 1
+AreaLevel >= 40
 
 Show
 Rarity Normal
 BaseType "Broad Spear"
-AreaLevel >= 1
+AreaLevel >= 45
 
 Show
 Rarity Normal
 BaseType "Crossblade Spear"
-AreaLevel >= 1
+AreaLevel >= 51
 
 Show
 Rarity Normal
 BaseType "Seaglass Spear"
-AreaLevel >= 1
-
-Show
-Rarity Normal
-BaseType "Sword Spear"
-AreaLevel >= 1
-
-Show
-Rarity Normal
-BaseType "Striking Spear"
-AreaLevel >= 1
-
-Show
-Rarity Normal
-BaseType "Helix Spear"
-AreaLevel >= 1
-
-Show
-Rarity Normal
-BaseType "Steelhead Spear"
-AreaLevel >= 1
-
-Show
-Rarity Normal
-BaseType "Coursing Spear"
-AreaLevel >= 1
-
-Show
-Rarity Normal
-BaseType "Swift Spear"
-AreaLevel >= 1
+AreaLevel >= 55
 
 Show
 Rarity Normal
 BaseType "Branched Spear"
-AreaLevel >= 1
+AreaLevel >= 59
 
 Show
 Rarity Normal
 BaseType "Jagged Spear"
-AreaLevel >= 1
+AreaLevel >= 62
 
 Show
 Rarity Normal
 BaseType "Massive Spear"
-AreaLevel >= 1
-
-Show
-Rarity Normal
-BaseType "Orichalcum Spear"
-AreaLevel >= 1
+AreaLevel >= 67
 
 #--------------------------
 # Normal off-hand to hide while leveling
@@ -1302,3 +1270,38 @@ Hide
 Rarity Normal
 BaseType "Rawhide Boots"
 AreaLevel >= 11
+
+Hide
+Rarity Normal
+BaseType "Laced Boots"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Embossed Boots"
+AreaLevel >= 28
+
+Hide
+Rarity Normal
+BaseType "Steeltoe Boots"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Lizardscale Boots"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType " Boots"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType " Boots"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType " Boots"
+AreaLevel >= 65

@@ -1681,4 +1681,295 @@ AreaLevel >= 65
 # Normal helmets to hide while leveling
 #--------------------------
 
+# Armour
 
+Hide
+Rarity Normal
+BaseType "Rusted Greathelm"
+AreaLevel >= 12
+
+Hide
+Rarity Normal
+BaseType "Soldier Greathelm"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Wrapped Greathelm"
+AreaLevel >= 27
+
+Hide
+Rarity Normal
+BaseType "Spired Greathelm"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Elite Greathelm"
+AreaLevel >= 36
+
+Hide
+Rarity Normal
+BaseType "Warrior Greathelm"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Commander Greathelm"
+AreaLevel >= 51
+
+Hide
+Rarity Normal
+BaseType "Fierce Greathelm"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Elegant Greathelm"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Noble Greathelm"
+AreaLevel >= 65
+
+# Evasion
+
+Hide
+Rarity Normal
+BaseType "Shabby Hood"
+AreaLevel >= 10
+
+Hide
+Rarity Normal
+BaseType "Felt Cap"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Lace Hood"
+AreaLevel >= 26
+
+Hide
+Rarity Normal
+BaseType "Swathed Cap"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Hunter Hood"
+AreaLevel >= 38
+
+Hide
+Rarity Normal
+BaseType "Viper Cap"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Corsair Cap"
+AreaLevel >= 51
+
+Hide
+Rarity Normal
+BaseType "Leatherbound Hood"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Wrapped Cap"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Deerstalker Hood"
+AreaLevel >= 65
+
+# Energy Shield
+
+Hide
+Rarity Normal
+BaseType "Twig Circlet"
+AreaLevel >= 10
+
+Hide
+Rarity Normal
+BaseType "Wicker Tiara"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Beaded Circlet"
+AreaLevel >= 26
+
+Hide
+Rarity Normal
+BaseType "Chain Tiara"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Feathered Tiara"
+AreaLevel >= 40
+
+Hide
+Rarity Normal
+BaseType "Gold Circlet"
+AreaLevel >= 50
+
+Hide
+Rarity Normal
+BaseType "Jade Tiara"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Sandsworn Tiara"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Jungle Tiara"
+AreaLevel >= 65
+
+# Armour/Evasion
+
+Hide
+Rarity Normal
+BaseType "Brimmed Helm"
+AreaLevel >= 11
+
+Hide
+Rarity Normal
+BaseType "Guarded Helm"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Visored Helm"
+AreaLevel >= 26
+
+Hide
+Rarity Normal
+BaseType "Cowled Helm"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Shielded Helm"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Closed Helm"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Cabalist Helm"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Gladiatoral Helm"
+AreaLevel >= 65
+
+# Armour/Energy Shield
+
+Hide
+Rarity Normal
+BaseType "Iron Crown"
+AreaLevel >= 10
+
+Hide
+Rarity Normal
+BaseType "Horned Crown"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Cultist Crown"
+AreaLevel >= 28
+
+Hide
+Rarity Normal
+BaseType "Martyr Crown"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Heavy Crown"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Spiritbone Crown"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Hallowed Crown"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Inquisitor Crown"
+AreaLevel >= 65
+
+# Evasion/Energy Shield
+
+Hide
+Rarity Normal
+BaseType "Hewn Mask"
+AreaLevel >= 10
+
+Hide
+Rarity Normal
+BaseType "Face Mask"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Hooded Mask"
+AreaLevel >= 28
+
+Hide
+Rarity Normal
+BaseType "Veiled Mask"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Tribal Mask"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Solid Mask"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Pariah Mask"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Avian Mask"
+AreaLevel >= 65
+
+#--------------------------
+# Normal body armour to hide while leveling
+#--------------------------
+
+# Armour
+
+# Evasion
+
+# Energy Shield
+
+# Armour/Evasion
+
+# Armour/Energy Shield
+
+# Evasion/Energy Shield

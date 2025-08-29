@@ -1964,12 +1964,367 @@ AreaLevel >= 65
 
 # Armour
 
+Hide
+Rarity Normal
+BaseType "Rusted Cuirass"
+AreaLevel >= 4
+
+Hide
+Rarity Normal
+BaseType "Fur Plate"
+AreaLevel >= 11
+
+Hide
+Rarity Normal
+BaseType "Iron Cuirass"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Raider Plate"
+AreaLevel >= 20
+
+Hide
+Rarity Normal
+BaseType "Maraketh Cuirass"
+AreaLevel >= 27
+
+Hide
+Rarity Normal
+BaseType "Steel Plate"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Full Plate"
+AreaLevel >= 37
+
+Hide
+Rarity Normal
+BaseType "Vaal Cuirass"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Juggernaut Plate"
+AreaLevel >= 50
+
+Hide
+Rarity Normal
+BaseType "Chieftain Cuirass"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Elegant Plate"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Heavy Plate"
+AreaLevel >= 62
+
+Hide
+Rarity Normal
+BaseType "Stone Cuirass"
+AreaLevel >= 65
+
 # Evasion
+
+Hide
+Rarity Normal
+BaseType "Leather Vest"
+AreaLevel >= 4
+
+Hide
+Rarity Normal
+BaseType "Quilted Vest"
+AreaLevel >= 11
+
+Hide
+Rarity Normal
+BaseType "Pathfinder Coat"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Shrouded Vest"
+AreaLevel >= 22
+
+Hide
+Rarity Normal
+BaseType "Rhoahide Coat"
+AreaLevel >= 26
+
+Hide
+Rarity Normal
+BaseType "Studded Vest"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Scout's Vest"
+AreaLevel >= 36
+
+Hide
+Rarity Normal
+BaseType "Serpentscale Coat"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Corsair Vest"
+AreaLevel >= 48
+
+Hide
+Rarity Normal
+BaseType "Smuggler Coat"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Layered Vest"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Runner Vest"
+AreaLevel >= 62
+
+Hide
+Rarity Normal
+BaseType "Lizardscale Coat"
+AreaLevel >= 65
 
 # Energy Shield
 
+Hide
+Rarity Normal
+BaseType "Tattered Robe"
+AreaLevel >= 5
+
+Hide
+Rarity Normal
+BaseType "Feathered Robe"
+AreaLevel >= 11
+
+Hide
+Rarity Normal
+BaseType "Hexer's Robe"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Bone Raiment"
+AreaLevel >= 22
+
+Hide
+Rarity Normal
+BaseType "Silk Robe"
+AreaLevel >= 28
+
+Hide
+Rarity Normal
+BaseType "Keth Raiment"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Votive Raiment"
+AreaLevel >= 40
+
+Hide
+Rarity Normal
+BaseType "Altar Robe"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Elementalist Robe"
+AreaLevel >= 47
+
+Hide
+Rarity Normal
+BaseType "Mystic Raiment"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "River Raiment"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Adherent's Raiment"
+AreaLevel >= 62
+
+Hide
+Rarity Normal
+BaseType "Ceremonial Robe"
+AreaLevel >= 65
+
 # Armour/Evasion
+
+Hide
+Rarity Normal
+BaseType "Chain Mail"
+AreaLevel >= 11
+
+Hide
+Rarity Normal
+BaseType "Rogue Armour"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Vagabond Armour"
+AreaLevel >= 26
+
+Hide
+Rarity Normal
+BaseType "Cloaked Mail"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Explorer Armour"
+AreaLevel >= 37
+
+Hide
+Rarity Normal
+BaseType "Scale Mail"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Knight Armour"
+AreaLevel >= 50
+
+Hide
+Rarity Normal
+BaseType "Ancestral Mail"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Mantled Mail"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Trailblazer Armour"
+AreaLevel >= 62
+
+Hide
+Rarity Normal
+BaseType "Golden Mail"
+AreaLevel >= 65
 
 # Armour/Energy Shield
 
+Hide
+Rarity Normal
+BaseType "Pilgrim Vestments"
+AreaLevel >= 10
+
+Hide
+Rarity Normal
+BaseType "Pelt Mantle"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Mail Vestments"
+AreaLevel >= 28
+
+Hide
+Rarity Normal
+BaseType "Shaman Mantle"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Ironclad Vestments"
+AreaLevel >= 36
+
+Hide
+Rarity Normal
+BaseType "Sacrificial Mantle"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Cleric Vestments"
+AreaLevel >= 51
+
+Hide
+Rarity Normal
+BaseType "Tideseer Mantle"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Occultist Mantle"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Plated Vestments"
+AreaLevel >= 62
+
+Hide
+Rarity Normal
+BaseType "Heartcarver Mantle"
+AreaLevel >= 65
+
 # Evasion/Energy Shield
+
+Hide
+Rarity Normal
+BaseType "Hermit Garb"
+AreaLevel >= 11
+
+Hide
+Rarity Normal
+BaseType "Waxed Jacket"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Marabout Garb"
+AreaLevel >= 28
+
+Hide
+Rarity Normal
+BaseType "Wayfarer Jacket"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Anchorite Garb"
+AreaLevel >= 39
+
+Hide
+Rarity Normal
+BaseType "Scalper's Jacket"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Scoundrel Jacket"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Itinerant Jacket"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Hatungo Garb"
+AreaLevel >= 62
+
+Hide
+Rarity Normal
+BaseType "Hawker's Jacket"
+AreaLevel >= 65

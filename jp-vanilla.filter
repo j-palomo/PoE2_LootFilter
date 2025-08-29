@@ -1470,3 +1470,215 @@ Hide
 Rarity Normal
 BaseType "Treerunner Shoes"
 AreaLevel >= 65
+
+
+#--------------------------
+# Normal gloves to hide while leveling
+#--------------------------
+# Armour
+
+Hide
+Rarity Normal
+BaseType "Stocky Mitts"
+AreaLevel >= 11
+
+Hide
+Rarity Normal
+BaseType "Riveted Mitts"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Tempered Mitts"
+AreaLevel >= 27
+
+Hide
+Rarity Normal
+BaseType "Bolstered Mitts"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Moulded Mitts"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Detailed Mitts"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Ancient Mitts"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Feathered Mitts"
+AreaLevel >= 65
+
+# Evasion
+
+Hide
+Rarity Normal
+BaseType "Suede Bracers"
+AreaLevel >= 11
+
+Hide
+Rarity Normal
+BaseType "Firm Bracers"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Bound Bracers"
+AreaLevel >= 28
+
+Hide
+Rarity Normal
+BaseType "Sectioned Bracers"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Spined Bracers"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Fine Bracers"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Refined Bracers"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Spiked Bracers"
+AreaLevel >= 65
+
+# Energy Shield
+
+Hide
+Rarity Normal
+BaseType "Torn Gloves"
+AreaLevel >= 12
+
+Hide
+Rarity Normal
+BaseType "Sombre Gloves"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Stitched Gloves"
+AreaLevel >= 26
+
+Hide
+Rarity Normal
+BaseType "Jewelled Gloves"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Intricate Gloves"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Pauascale Gloves"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Baroque Gloves"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Gold Gloves"
+AreaLevel >= 65
+
+# Armour/Evasion
+
+Hide
+Rarity Normal
+BaseType "Ringmail Gauntlets"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Layered Gauntlets"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Doubled Gauntlets"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Plate Gauntlets"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Zealot Gauntlets"
+AreaLevel >= 65
+
+# Armour/Energy Shield
+
+Hide
+Rarity Normal
+BaseType "Rope Cuffs"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Aged Cuffs"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Goldcast Cuffs"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Ornate Cuffs"
+AreaLevel >= 65
+
+# Evasion/Energy Shield
+
+Hide
+Rarity Normal
+BaseType "Gauze Wraps"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Linen Wraps"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Spiral Wraps"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Buckled Wraps"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Adorned Wraps"
+AreaLevel >= 65
+
+#--------------------------
+# Normal helmets to hide while leveling
+#--------------------------
+
+

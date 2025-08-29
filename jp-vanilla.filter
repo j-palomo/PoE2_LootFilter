@@ -60,6 +60,19 @@ SetTextColor 0 0 0
 SetBackgroundColor 255 255 255
 
 #--------------------------
+# Socketables
+#--------------------------
+
+Show
+BaseType " Gaze"
+SetFontSize 39
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 0 0 0
+PlayEffect White
+PlayAlertSoundPositional 11 200
+
+#--------------------------
 # Runes
 #--------------------------
 
@@ -203,7 +216,7 @@ PlayEffect Cyan Temp
 PlayAlertSoundPositional 3 50
 
 Show
-BaseType == "Vaal Orb" "Regal Orb" "Fracturing Shard"
+BaseType == "Vaal Orb" "Regal Orb" "Fracturing Shard" "Greater Orb of Transmutation" "Greater Orb of Augmentation"
 SetFontSize 25
 PlayEffect Yellow Temp
 PlayAlertSoundPositional 2 150
@@ -228,7 +241,7 @@ PlayAlertSoundPositional 2 150
 #
 
 Show
-BaseType == "Chaos Orb" "Orb of Alchemy" "Fracturing Orb"
+BaseType == "Chaos Orb" "Orb of Alchemy" "Fracturing Orb" "Perfect Orb of Transmutation" "Perfect Orb of Augmentation"
 SetFontSize 35
 SetBorderColor 255 207 132
 PlayEffect Yellow
@@ -236,7 +249,7 @@ MinimapIcon 1 Yellow Square
 PlayAlertSoundPositional 2 200
 
 Show
-BaseType "Orb of Annulment"
+BaseType "Orb of Annulment" "Greater Exalted Orb" "Greater Regal Orb"
 SetFontSize 38
 SetBorderColor 255 207 132
 PlayEffect Yellow
@@ -256,7 +269,7 @@ PlayAlertSoundPositional 3 250
 #
 
 Show
-BaseType "Divine Orb"
+BaseType "Divine Orb" "Greater Chaos Orb" "Perfect Exalted Orb" "Perfect Regal Orb"
 SetFontSize 42
 SetBorderColor 255 207 132
 PlayEffect Yellow
@@ -284,7 +297,7 @@ PlayAlertSoundPositional 4 250
 #
 
 Show
-BaseType "Mirror of Kalandra"
+BaseType "Mirror of Kalandra" "Perfect Chaos Orb"
 SetFontSize 45
 SetBorderColor 255 207 132
 PlayEffect Brown
@@ -320,6 +333,12 @@ PlayAlertSoundPositional 4 300
 # Omens
 #--------------------------
 # Low item level
+Show
+BaseType "Omen of "
+SetFontSize 32
+PlayEffect White Temp
+Continue
+
 Show
 BaseType "Omen of Sinistral" "Omen of Dextral Exaltation" "Omen of Greater Exaltation"
 SetFontSize 30

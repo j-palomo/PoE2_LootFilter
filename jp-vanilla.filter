@@ -1305,3 +1305,168 @@ Hide
 Rarity Normal
 BaseType " Boots"
 AreaLevel >= 65
+
+# Armour
+
+Hide
+Rarity Normal
+BaseType "Rough Greaves"
+AreaLevel >= 11
+
+Hide
+Rarity Normal
+BaseType "Iron Greaves"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Bronze Greaves"
+AreaLevel >= 27
+
+Hide
+Rarity Normal
+BaseType "Trimmed Greaves"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Stone Greaves"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Reefsteel Greaves"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Elegant Greaves"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Carved Greaves"
+AreaLevel >= 65
+
+# Energy Shield
+
+Hide
+Rarity Normal
+BaseType "Straw Sandals"
+AreaLevel >= 11
+
+Hide
+Rarity Normal
+BaseType "Wrapped Sandals"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Lattice Sandals"
+AreaLevel >= 27
+
+Hide
+Rarity Normal
+BaseType "Silk Slippers"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Feathered Sandals"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Flax Sandals"
+AreaLevel >= 55
+
+Hide
+Rarity Normal
+BaseType "Elegant Slippers"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Dunerunner Sandals"
+AreaLevel >= 65
+
+# Armour/Evasion
+
+Hide
+Rarity Normal
+BaseType "Mail Sabatons"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Braced Sabatons"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Stacked Sabatons"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Covered Sabatons"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Bastion Sabatons"
+AreaLevel >= 65
+
+# Armour/Energy Shield
+
+Hide
+Rarity Normal
+BaseType "Padded Leggings"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Secured Leggings"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Pelt Leggings"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Weaver Leggings"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Shamanistic Leggings"
+AreaLevel >= 65
+
+# Evasion/Energy Shield
+
+Hide
+Rarity Normal
+BaseType "Frayed Shoes"
+AreaLevel >= 16
+
+Hide
+Rarity Normal
+BaseType "Threaded Shoes"
+AreaLevel >= 33
+
+Hide
+Rarity Normal
+BaseType "Hunting Shoes"
+AreaLevel >= 45
+
+Hide
+Rarity Normal
+BaseType "Steelpoint Shoes"
+AreaLevel >= 59
+
+Hide
+Rarity Normal
+BaseType "Treerunner Shoes"
+AreaLevel >= 65

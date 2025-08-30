@@ -77,7 +77,7 @@ PlayAlertSoundPositional 11 200
 #--------------------------
 
 Show
-BaseType "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Storm Rune" "Lesser Iron Rune" "Lesser Body Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Inspiration Rune" "Lesser Stone Rune" "Lesser Vision Rune" "Lesser Adept Rune"
+BaseType "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Storm Rune" "Lesser Iron Rune" "Lesser Body Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Inspiration Rune" "Lesser Stone Rune" "Lesser Vision Rune" "Lesser Adept Rune" "Lesser Resolve Rune"
 PlayEffect Grey Temp
 MinimapIcon 1 Grey Circle
 SetFontSize 34
@@ -309,8 +309,14 @@ PlayAlertSoundPositional 4 300
 #--------------------------
 
 Show
-BaseType "Essence "
+BaseType "Lesser Essence "
 SetFontSize 25
+PlayEffect Purple Temp
+Continue
+
+Show
+BaseType "Essence "
+SetFontSize 27
 PlayEffect Purple
 Continue
 

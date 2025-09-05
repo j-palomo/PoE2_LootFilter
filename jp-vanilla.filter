@@ -86,6 +86,15 @@ SetBorderColor 0 0 0
 SetBackgroundColor 32 32 32
 
 Show
+BaseType "Adept Rune"
+PlayEffect Grey
+MinimapIcon 2 Grey Circle
+SetFontSize 37
+SetTextColor 192 224 255
+SetBorderColor 0 0 0
+SetBackgroundColor 32 32 32
+
+Show
 BaseType "Greater Desert Rune" "Greater Glacial Rune" "Greater Storm Rune" "Greater Iron Rune" "Greater Body Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Inspiration Rune" "Greater Stone Rune" "Greater Vision Rune"
 PlayEffect Grey
 MinimapIcon 2 Grey Circle

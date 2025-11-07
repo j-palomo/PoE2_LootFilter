@@ -86,7 +86,7 @@ SetBorderColor 0 0 0
 SetBackgroundColor 32 32 32
 
 Show
-BaseType "Adept Rune"
+BaseType "Adept Rune" "Robust Rune" "Resolve Rune"
 PlayEffect Grey
 MinimapIcon 2 Grey Circle
 SetFontSize 37
